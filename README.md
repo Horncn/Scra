@@ -1,2 +1,2 @@
 # Scra
-This is a parody to scratch, mostly written in vanilla js
+This is a bad parody to scratch
