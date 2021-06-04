@@ -1,0 +1,11 @@
+Model Information:
+* title:	Azeria
+* source:	https://sketchfab.com/3d-models/azeria-6285cc28b0754715bb1cf4e8a16125c5
+* author:	mirenatxurra (https://sketchfab.com/mirenatxurra)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Azeria" (https://sketchfab.com/3d-models/azeria-6285cc28b0754715bb1cf4e8a16125c5) by mirenatxurra (https://sketchfab.com/mirenatxurra) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
