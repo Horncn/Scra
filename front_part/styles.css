@@ -1,0 +1,217 @@
+.noscroll { 
+    overflow: hidden;
+  }
+
+body{
+    width:  100%;
+    min-width: 900px;
+    overflow: hidden;
+    background-color: rgb(0,2,46);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    position: relative;
+    z-index: 10;
+    color:orange;
+    height: 75px;
+    margin: auto;
+    padding-left: 20px;
+    background-color: rgb(39, 109, 153);
+}
+
+header a{
+    padding-left: 20px;
+    height: 50px;
+    position: relative;
+    padding-top: 10px;
+    font-size: 1.5em;
+    vertical-align: top
+}
+
+.ico{
+    padding-left: 50px;
+}
+.game_field{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 10px;
+    padding-left: 5%;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.game{
+    height: 825px;
+}
+.level_menu{
+    padding-left: 10px;
+    margin-top: -60px;
+}
+
+.level_screen{
+    margin-top: 10px;
+}
+.menu{
+    padding-top: 20px;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(0,2,46);
+    color: wheat;
+    font-size: 1.5em;
+}
+
+.menu_title{
+    font-size: 1.2em;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu_button {
+    display: block;
+    background-color: rgb(39, 109, 153);
+    color: wheat;
+    border: 2px solid wheat;
+    font-size: 1.1em;
+    width: 400px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.menu_button.level{
+    width: 200px;
+    font-size: 1em;
+}
+.stages{
+    margin-top: -10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px
+}
+
+.stage{
+    width: 20%;
+}
+
+.button_pool{
+    color: wheat;
+    margin-left: 5px;
+}
+.return{
+    position: relative;
+    z-index: 10;
+    height: 75px;
+    background-color: rgba(0,2,46,0);
+    padding-left: 5%;
+}
+.return button{
+    margin-top: 10px;
+    float: right;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('libraries/menu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.command{
+    margin-left: 10%;
+    height: 50px;
+    width: 50%;
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    color: wheat;
+}
+
+.cycle{
+    border-bottom: 1px solid wheat ;
+}
+
+.cycle a{
+    color: wheat;
+    padding-top: 5px;
+}
+
+.cycle_input{
+    background-color: transparent;
+    color: wheat;
+    width: 30px;
+    height: 25px;
+    font-size: 0.7em;
+    border: solid 1px wheat;
+}
+
+.checked{
+    height: 25px;
+    width: 25px;
+}
+
+.command p{
+    margin-top: 0%;
+    width:  100%;
+}
+.command :hover{
+    background-color: rgb(39, 109, 153);
+}
+
+.command :active{
+    background-color: rgb(0,2,46)
+}
+
+.command p::selection {
+    background: transparent;
+ }
+.command p::-moz-selection {
+    background: transparent;
+ }
+ .command::selection {
+    background: transparent;
+ }
+.command::-moz-selection {
+    background: transparent;
+ }
+
+.to_process{
+    margin-top: 5px;
+    color: wheat;
+}
+
+.info{
+
+    padding-left: 30px;
+    width:  50%;
+    height: 200px;
+}
+
+.stack{
+     font-size: 0.7em;
+     width: 100%;
+     grid-column-start: 1;
+     grid-column-end: 2;
+     display: grid;
+     grid-template-columns: repeat(10, minmax(140px, 140px) );
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.win{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 2em;
+    color: orange;
+}
